@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SPECIAL. Friend Finder!</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Linking jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <!-- Linking Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Nav -->
+    <nav id="theNav" class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="#">Special Friends <i class="fas fa-kiss-wink-heart"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./survey.html">Take the Survey</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li> -->
+            </ul>
+            <!-- <span class="navbar-text">
+                Navbar text with an inline element
+              </span> -->
+        </div>
+    </nav>
+
+    <div class="container secondCont">
+        <div class="row">
+            <div class="col-12">
+                <h1>Answer some questions, find something special</h1>
+            </div>
+            <div class="col-12">
+                <form id= "theForm">
+                    <div class="form-group questions">
+                        <label for="exampleFormControlInput1">Your Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+                    </div>
+                    <div class="form-group questions">
+                        <label for="question1">You love long walks on the beach.</label>
+                        <select multiple class="form-control" id="question1">
+                            <option>1 Highly Disagree</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 Strongly Agree</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group questions">
+                        <label for="question2">You put Sriracha on everything.</label>
+                        <select multiple class="form-control" id="question2">
+                            <option>1 Highly Disagree</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 Strongly Agree</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group questions">
+                        <label for="question3">You invest a lot of time building THICC muscle.</label>
+                        <select multiple class="form-control" id="question3">
+                            <option>1 Highly Disagree</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 Strongly Agree</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group questions">
+                        <label for="question4">Everytime you hear your favorite song you get up and dance.</label>
+                        <select multiple class="form-control" id="question4">
+                            <option>1 Highly Disagree</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 Strongly Agree</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group questions">
+                        <label for="question5">Whenever you eat too many cookies your stomach hurts.</label>
+                        <select multiple class="form-control" id="question5">
+                            <option>1 Highly Disagree</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 Strongly Agree</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group questions">
+                        <label for="question6">You gain respect for men when they cry.</label>
+                        <select multiple class="form-control" id="question6">
+                            <option>1 Highly Disagree</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 Strongly Agree</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group questions">
+                        <label for="question7">People in your family would describe you as outgoing.</label>
+                        <select multiple class="form-control" id="question7">
+                            <option>1 Highly Disagree</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 Strongly Agree</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group questions">
+                        <label for="question8">You like hot soup on a cold day.</label>
+                        <select multiple class="form-control" id="question8">
+                            <option>1 Highly Disagree</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 Strongly Agree</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group questions">
+                        <label for="question9">You still enjoy hot soup even on a hot day.</label>
+                        <select multiple class="form-control" id="question9">
+                            <option>1 Highly Disagree</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 Strongly Agree</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group questions">
+                        <label for="question10">Dogs are better than cats</label>
+                        <select multiple class="form-control" id="question10">
+                            <option>1 Highly Disagree</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 Strongly Agree</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary" id = "submitButton" type="submit">Submit <i class="fas fa-kiss-wink-heart"></i></button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Here is your Special Friend</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <h2 id="userMatch"></h2>
+                    <img id="userMatchImage" class="materialboxed" width="450" src="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+<!-- JS Functionality -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('select').material_select();
+        $('.modal').modal({
+            dismissible: false, // Modal can be dismissed by clicking outside of the modal
+            opacity: .5, // Opacity of modal background
+            inDuration: 300, // Transition in duration
+            outDuration: 200, // Transition out duration
+            startingTop: '4%', // Starting top style attribute
+            endingTop: '10%' // Ending top style attribute
+        });
+    });
+    // Activate submit button
+    $('#submitButton').on('click', function(event) {
+        event.preventDefault();
+        // Gather user inputs
+        var userInput = {
+            name: $('#exampleFormControlInput1').val().trim(),
+            
+            scores:[
+                $('#question1').val().trim(),
+                $('#question2').val().trim(),
+                $('#question3').val().trim(),
+                $('#question4').val().trim(),
+                $('#question5').val().trim(),
+                $('#question6').val().trim(),
+                $('#question7').val().trim(),
+                $('#question8').val().trim(),
+                $('#question9').val().trim(),
+                $('#question10').val().trim()
+            ]
+        };
+        // console.log('userInput = ' + JSON.stringify(userInput));
+        // Add user inputs to friends list
+        $.post('/api/friends', userInput)
+          .done(function(data) {
+              // console.log('response = ' + JSON.stringify(data));
+              // Set the name and image values of friend match
+              $('#userMatch').html(data.matchName);
+            $("#userMatchImage").attr("src", data.matchImage);
+            // Pop open the modal dialog
+              $('#exampleModalCenter').modal('open');
+          });
+    });
+</script>
+
+
+
+
+</body>
+
+</html>

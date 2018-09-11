@@ -1,0 +1,62 @@
+body {
+    /* background-image: url("./frenchstucco/frenchstucco_@2X.png"); */
+    background-image: url("https://media2.s-nbcnews.com/i/newscms/2016_18/1073001/old-navy-interracial-ad-today-160503-tease_da90aa3b7668118b4086f3c64b3aaee4.jpg") ;
+    background-size: cover;
+    height: 100%;
+    
+}
+
+#theNav{
+    height:100px;
+}
+
+.navbar-brand{
+    font-size:45px;
+}
+
+.nav-link{
+    font-size: 30px;
+}
+
+#firstQuote{
+    /* color:#e3f2fd;  */
+    color: black;
+    font-style: italic;
+    font-size: 75px ;
+}
+
+#mainButton{
+    height: 150px;
+    width: 350px;
+    font-size:35px;
+    margin-bottom: 25px;
+}
+
+#homepage{
+    /* background-color: #e3f2fd; */
+    margin-top: 300px;
+    
+}
+
+h1{
+    font-size: 40px;
+    color: #e3f2fd;
+}
+
+.questions{
+    font-size: 30px;
+    color: black;
+}
+
+.secondCont{
+    margin-top: 30px;
+}
+
+#theForm{
+    margin-bottom: 30px;
+}
+
+/* blockquote{
+    font-style: italic;
+    font-size: 75px ;
+} */
