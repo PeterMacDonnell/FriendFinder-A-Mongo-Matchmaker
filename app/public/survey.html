@@ -9,8 +9,7 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Linking jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+    
 
     <!-- Linking Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
@@ -58,110 +57,110 @@
                     <div class="form-group questions">
                         <label for="question1">You love long walks on the beach.</label>
                         <select multiple class="form-control" id="question1">
-                            <option>1 Highly Disagree</option>
+                            <option>1</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
-                            <option>5 Strongly Agree</option>
+                            <option>5</option>
                         </select>
                     </div>
 
                     <div class="form-group questions">
                         <label for="question2">You put Sriracha on everything.</label>
                         <select multiple class="form-control" id="question2">
-                            <option>1 Highly Disagree</option>
+                            <option>1</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
-                            <option>5 Strongly Agree</option>
+                            <option>5</option>
                         </select>
                     </div>
 
                     <div class="form-group questions">
                         <label for="question3">You invest a lot of time building THICC muscle.</label>
                         <select multiple class="form-control" id="question3">
-                            <option>1 Highly Disagree</option>
+                            <option>1</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
-                            <option>5 Strongly Agree</option>
+                            <option>5</option>
                         </select>
                     </div>
 
                     <div class="form-group questions">
                         <label for="question4">Everytime you hear your favorite song you get up and dance.</label>
                         <select multiple class="form-control" id="question4">
-                            <option>1 Highly Disagree</option>
+                            <option>1</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
-                            <option>5 Strongly Agree</option>
+                            <option>5</option>
                         </select>
                     </div>
 
                     <div class="form-group questions">
                         <label for="question5">Whenever you eat too many cookies your stomach hurts.</label>
                         <select multiple class="form-control" id="question5">
-                            <option>1 Highly Disagree</option>
+                            <option>1</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
-                            <option>5 Strongly Agree</option>
+                            <option>5</option>
                         </select>
                     </div>
 
                     <div class="form-group questions">
                         <label for="question6">You gain respect for men when they cry.</label>
                         <select multiple class="form-control" id="question6">
-                            <option>1 Highly Disagree</option>
+                            <option>1</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
-                            <option>5 Strongly Agree</option>
+                            <option>5</option>
                         </select>
                     </div>
 
                     <div class="form-group questions">
                         <label for="question7">People in your family would describe you as outgoing.</label>
                         <select multiple class="form-control" id="question7">
-                            <option>1 Highly Disagree</option>
+                            <option>1</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
-                            <option>5 Strongly Agree</option>
+                            <option>5</option>
                         </select>
                     </div>
 
                     <div class="form-group questions">
                         <label for="question8">You like hot soup on a cold day.</label>
                         <select multiple class="form-control" id="question8">
-                            <option>1 Highly Disagree</option>
+                            <option>1</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
-                            <option>5 Strongly Agree</option>
+                            <option>5</option>
                         </select>
                     </div>
 
                     <div class="form-group questions">
                         <label for="question9">You still enjoy hot soup even on a hot day.</label>
                         <select multiple class="form-control" id="question9">
-                            <option>1 Highly Disagree</option>
+                            <option>1</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
-                            <option>5 Strongly Agree</option>
+                            <option>5</option>
                         </select>
                     </div>
 
                     <div class="form-group questions">
                         <label for="question10">Dogs are better than cats</label>
                         <select multiple class="form-control" id="question10">
-                            <option>1 Highly Disagree</option>
+                            <option>1</option>
                             <option>2</option>
                             <option>3</option>
                             <option>4</option>
-                            <option>5 Strongly Agree</option>
+                            <option>5</option>
                         </select>
                     </div>
                     <button class="btn btn-primary" id = "submitButton" type="submit">Submit <i class="fas fa-kiss-wink-heart"></i></button>
@@ -182,7 +181,7 @@
               </button>
             </div>
             <div class="modal-body">
-                    <h2 id="userMatch"></h2>
+                    <h2 id="userMatch">CHICKEN</h2>
                     <img id="userMatchImage" class="materialboxed" width="450" src="">
             </div>
             <div class="modal-footer">
@@ -194,20 +193,21 @@
       </div>
 
 
-
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
 <!-- JS Functionality -->
 <script type="text/javascript">
-    $(document).ready(function() {
-        $('select').material_select();
-        $('.modal').modal({
-            dismissible: false, // Modal can be dismissed by clicking outside of the modal
-            opacity: .5, // Opacity of modal background
-            inDuration: 300, // Transition in duration
-            outDuration: 200, // Transition out duration
-            startingTop: '4%', // Starting top style attribute
-            endingTop: '10%' // Ending top style attribute
-        });
-    });
+    $(document).ready(function(){
+    //     $('select').();
+    //     $('.modal').modal({
+    //         dismissible: false, // Modal can be dismissed by clicking outside of the modal
+    //         opacity: .5, // Opacity of modal background
+    //         inDuration: 300, // Transition in duration
+    //         outDuration: 200, // Transition out duration
+    //         startingTop: '4%', // Starting top style attribute
+    //         endingTop: '10%' // Ending top style attribute
+    //     });
+    
     // Activate submit button
     $('#submitButton').on('click', function(event) {
         event.preventDefault();
@@ -216,30 +216,37 @@
             name: $('#exampleFormControlInput1').val().trim(),
             
             scores:[
-                $('#question1').val().trim(),
-                $('#question2').val().trim(),
-                $('#question3').val().trim(),
-                $('#question4').val().trim(),
-                $('#question5').val().trim(),
-                $('#question6').val().trim(),
-                $('#question7').val().trim(),
-                $('#question8').val().trim(),
-                $('#question9').val().trim(),
-                $('#question10').val().trim()
+                $('#question1').val(),
+                $('#question2').val(),
+                $('#question3').val(),
+                $('#question4').val(),
+                $('#question5').val(),
+                $('#question6').val(),
+                $('#question7').val(),
+                $('#question8').val(),
+                $('#question9').val(),
+                $('#question10').val()
             ]
+
+            
         };
+
+     
+
         // console.log('userInput = ' + JSON.stringify(userInput));
         // Add user inputs to friends list
         $.post('/api/friends', userInput)
           .done(function(data) {
-              // console.log('response = ' + JSON.stringify(data));
+          
               // Set the name and image values of friend match
               $('#userMatch').html(data.matchName);
             $("#userMatchImage").attr("src", data.matchImage);
-            // Pop open the modal dialog
-              $('#exampleModalCenter').modal('open');
+            
+              $('#exampleModalCenter').show('open');
           });
-    });
+          });
+    // });
+});
 </script>
 
 

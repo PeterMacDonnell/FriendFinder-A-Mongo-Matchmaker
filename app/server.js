@@ -9,7 +9,7 @@ var app = express();
 var PORT = process.env.PORT || 8080;
 
 //Connecting to the public folder
-app.use(express.static(path.join(__dirname, './app/public')));
+app.use(express.static('public'));
 
 
 //Boilerplate code for data parsing
@@ -20,8 +20,8 @@ app.use(bodyParser.json());
 
 
 // connecting to necessary files
-require(path.join(__dirname, './app/routing/apiRoutes'))(app);
-require(path.join(__dirname, './app/routing/htmlRoutes'))(app);
+require('./routing/apiRoutes')(app);
+require('./routing/htmlRoutes')(app);
 
 
 
