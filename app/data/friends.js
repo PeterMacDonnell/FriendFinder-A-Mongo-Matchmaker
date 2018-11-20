@@ -1,5 +1,5 @@
 //All Special friends
-var friendsArray = [
+var friends = [
 	{
 		name: 'Pablo',
 		photo: 'http://static2.businessinsider.com/image/5602c0799dd7cc14008bc773-684-513/screen-shot-2015-09-20-at-1.40.37-pm.png',
@@ -162,4 +162,4 @@ var friendsArray = [
 	}
 ];
 
-module.exports = friendsArray;
+module.exports = friends;
