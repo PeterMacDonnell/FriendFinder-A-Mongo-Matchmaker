@@ -2,7 +2,7 @@
 var friends = [
 	{
 		name: 'Pablo',
-		photo: 'http://static2.businessinsider.com/image/5602c0799dd7cc14008bc773-684-513/screen-shot-2015-09-20-at-1.40.37-pm.png',
+		img: 'http://static2.businessinsider.com/image/5602c0799dd7cc14008bc773-684-513/screen-shot-2015-09-20-at-1.40.37-pm.png',
 		scores: [
 			'1',
 			'5',
@@ -18,7 +18,7 @@ var friends = [
 	},
 	{
 		name: 'DatBoiiiii',
-		photo: 'https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/0/0a/Datboi.jpg/revision/latest?cb=20160717220507',
+		img: 'https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/0/0a/Datboi.jpg/revision/latest?cb=20160717220507',
 		scores: [
 			'5',
 			'4',
@@ -34,7 +34,7 @@ var friends = [
 	},
 	{
 		name: 'A fish',
-		photo: 'http://www.microscopy-uk.org.uk/mag/artnov08macro/CaitShannon/caitlinshannon_web/goldfish_frontview.jpg',
+		img: 'http://www.microscopy-uk.org.uk/mag/artnov08macro/CaitShannon/caitlinshannon_web/goldfish_frontview.jpg',
 		scores: [
 			'4',
 			'2',
@@ -50,7 +50,7 @@ var friends = [
 	},
 	{
 		name: 'A piece of cake',
-		photo: 'https://static1.squarespace.com/static/58594172893fc07d5b88dd15/t/5a71b0d1419202e3cc1fb561/1517400289812/Valentine%27s+cake.jpg',
+		img: 'https://static1.squarespace.com/static/58594172893fc07d5b88dd15/t/5a71b0d1419202e3cc1fb561/1517400289812/Valentine%27s+cake.jpg',
 		scores: [
 			'5',
 			'1',
@@ -66,7 +66,7 @@ var friends = [
 	},
 	{
 		name: 'A Plastic Bag',
-		photo: 'https://cen.acs.org/content/dam/cen/92/37/09237-cover-plasticbag.jpg',
+		img: 'https://cen.acs.org/content/dam/cen/92/37/09237-cover-plasticbag.jpg',
 		scores: [
 			'1',
 			'3',
@@ -82,7 +82,7 @@ var friends = [
 	},
 	{
 		name: 'A really buff guy',
-		photo: 'https://www.daimanuel.com/wp-content/uploads/2015/01/BodyBuilder.jpg',
+		img: 'https://www.daimanuel.com/wp-content/uploads/2015/01/BodyBuilder.jpg',
 		scores: [
 			'1',
 			'1',
@@ -98,7 +98,7 @@ var friends = [
 	},
 	{
 		name: 'A pair of chopsticks.',
-		photo: 'http://cdn.shopify.com/s/files/1/1487/2774/products/KKT-KCP0119A_grande.jpg?v=1520371497',
+		img: 'http://cdn.shopify.com/s/files/1/1487/2774/products/KKT-KCP0119A_grande.jpg?v=1520371497',
 		scores: [
 			'3',
 			'4',
@@ -114,7 +114,7 @@ var friends = [
 	},
 	{
 		name: 'This pretty lady',
-		photo: 'https://cdn.shopify.com/s/files/1/0758/2735/products/TB2MaFtbXTM8KJjSZFlXXaO8FXa__250582954.jpg?v=1512269120',
+		img: 'https://cdn.shopify.com/s/files/1/0758/2735/products/TB2MaFtbXTM8KJjSZFlXXaO8FXa__250582954.jpg?v=1512269120',
 		scores: [
 			'5',
 			'2',
@@ -130,7 +130,7 @@ var friends = [
 	},
 	{
 		name: 'This buff lady',
-		photo: 'http://www.smosh.com/wp-content/uploads/bloguploads/muscular-women-ring.jpg',
+		img: 'http://www.smosh.com/wp-content/uploads/bloguploads/muscular-women-ring.jpg',
 		scores: [
 			'5',
 			'5',
@@ -146,7 +146,7 @@ var friends = [
 	},
 	{
 		name: 'A furry dog',
-		photo: 'http://www.dogbreedslist.info/uploads/allimg/dog-pictures/Chow-Chow-1.jpg',
+		img: 'http://www.dogbreedslist.info/uploads/allimg/dog-pictures/Chow-Chow-1.jpg',
 		scores: [
 			'1',
 			'1',
